@@ -6,7 +6,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 button{
-    border-radius: 5px;
+    border-radius: 50px;
     height: 40px;
     padding-top: 10px;
     width: 150px;
@@ -16,9 +16,10 @@ button{
     background-color: rgb(123, 167, 167);
     text-transform: uppercase;
     box-shadow: 5px 5px rgba(99, 168, 196, 0.452);
+   
 }
 body{
-    background-color: #537fc2;
+    background-color: #1e2d46;
 }
 section#home{
     height: 100vh;
@@ -51,13 +52,35 @@ section#home header nav ul a{
 }
 section#home #content{
     display: flex;
-    color: #537fc2;
+    color: #000000;
 }
-section#home #content div{
+#botones{
 flex: 1;
+margin-top: 10px;
+display: flex;
+gap: 15px;
+
 }
 
 section#home #content h2{
     font-size: 4rem;
     color: aliceblue;
 }
+.imagen img{
+border-radius: 100%;
+width: 500px;
+height: 500px;
+}
+.imagen2{
+     display: flex;
+}
+.imagen2 img{
+   
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+   
+    }
+    
+    
+ 
