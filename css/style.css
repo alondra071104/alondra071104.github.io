@@ -56,7 +56,7 @@ section#home #content{
 }
 #botones{
 flex: 1;
-margin-top: 10px;
+margin-top: 45px;
 display: flex;
 gap: 15px;
 
@@ -82,5 +82,93 @@ height: 500px;
    
     }
     
+    
+
+
+
+
+
+
+
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+buttonn{
+    border-radius: 50px;
+    height: 40px;
+    padding-top: 10px;
+    width: 150px;
+    padding-bottom: 20px;
+    border: 1px solid #02113c;
+    color:antiquewhite;
+    background-color: rgb(123, 167, 167);
+    text-transform: uppercase;
+    box-shadow: 5px 5px rgba(99, 168, 196, 0.452);
+   
+}
+body{
+    background-color: #1e2d46;
+}
+section#homee{
+    height: 100vh;
+    background: #537fc2;
+    background: linear-gradient(90deg, rgba(83, 127, 194, 1) 0%, rgba(87, 192, 199, 1) 50%, rgba(83, 237, 163, 1) 100%);
+padding-left: 50px;
+padding-right: 50px;
+
+}
+section#homee header{
+display: flex;
+justify-content: space-between;
+padding-top: 30px;
+}
+section#homee #content{
+    display: flex;
+    color: #000000;
+}
+#botoness{
+flex: 1;
+margin-top: 10px;
+display: flex;
+gap: 15px;
+
+}
+#botoness{
+margin-right: 45%;
+
+}
+
+section#homee #contentt h2{
+    margin-right: 70%;
+    font-size: 4rem;
+    color: aliceblue;
+}
+.imagenn img{
+border-radius: 100%;
+width: 500px;
+height: 500px;
+margin: 15px;
+}
+.imagen22{
+     display: flex;
+}
+.imagen22 img{
+   
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+   
+    }
+
+
+
+
+
+
+
     
  
