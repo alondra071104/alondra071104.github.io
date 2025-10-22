@@ -31,24 +31,47 @@
             </nav>
             
            
+            <button class="menu-toggle" aria-label="Abrir menú de navegación">☰</button>
         </div>
     </header>
+        <section class="contact-section" id="contact"> 
+            <h2>Contacto</h2>
+            <p class="contact-subtitle">Ponte en contacto conmigo, estaré encantada de ayudarte</p>
 
-        <section class="hero" id="hero">
-            <div class="hero-text">
-                <h1>Hola, soy Alondra – Diseñadora y desarrolladora de páginas web.</h1>
-                
-                <div class="hero-buttons">
-                    <a href="acerca.html" class="btn primary">Más información</a>
-                    <a href="portafolio.html" class="btn secondary">Portafolio</a>
+            <address class="image-row-horizontal">
+                <div class="image-item-horizontal">
+                    <img src="img/teléfononv.webp" alt="Icono de Teléfono" class="round-image-horizontal" loading="lazy">
+                    <p class="image-text-horizontal">Teléfono</p>
                 </div>
-            </div>
-            <div class="hero-img">
-                 <img src="img/img.webp" alt="Foto principal de perfil de Alondra" loading="lazy">
+                <div class="image-item-horizontal">
+                    <img src="img/ubi.webp" alt="Icono de Ubicación" class="round-image-horizontal" loading="lazy">
+                    <p class="image-text-horizontal">Ubicación</p>
+                </div>
+                <div class="image-item-horizontal">
+                    <img src="img/correonvo.webp" alt="Icono de Correo" class="round-image-horizontal" loading="lazy">
+                    <p class="image-text-horizontal">Correo</p>
+                </div>
+            </address>
+            
+            <div class="contact-form-container">
+                <form class="contact-form" action="#" method="POST">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                    <label for="phone">Número de teléfono</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Tu número" required>
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                    <button type="submit" class="btn primary contact-button">Enviar</button>
+                </form>
             </div>
         </section>
-
-    <footer class="custom-footer">
+        <footer class="custom-footer">
         <div class="footer-overlay">
             <div class="footer-left">
                 <img src="img/img.webp" alt="Foto de perfil de Alondra" class="profile-pic" loading="lazy" />
@@ -85,5 +108,3 @@
         <div class="since-text">Desde 2025</div>
     </footer>
 
-</body>
-</html>
